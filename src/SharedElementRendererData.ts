@@ -114,6 +114,7 @@ export default class SharedElementRendererData
         this.transitionNavigatorId = navigatorId;
         this.transitionNestingDepth = nestingDepth;
       }
+      this.isTransitionClosing = closing;
     }
   }
 
